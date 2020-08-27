@@ -1,10 +1,12 @@
 package com.stackroute;
-
+/*
+ *This class contains method to get details of product
+ */
 public class TestProduct2{
 
     public static void main(String[] args) {
-        Product obj = new Product();
-        obj.setter();
-        obj.getter();
+        Product product = new Product();
+        product.setter();
+        product.getter();
     }
 }

@@ -1,10 +1,13 @@
 package com.stackroute;
-class TestProduct {                                  //This is a class used to call a constructor
+/*
+ *This is a class used to call a constructor
+ */
+class TestProduct {
 
     public static void main(String[] args) {
-        Product obj = new Product();
-        obj.getDetails();
-        obj.Display();
+        Product product = new Product();
+        product.getDetails();
+        product.Display();
     }
 }
 
